@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './logo.svg';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello.js'
@@ -17,48 +17,51 @@ import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form.js';
 import LifecycleA from './components/LifecycleA.js';
+import FragmentDemo from './components/FragmentDemo.js';
+import Table from './components/Table.js';
 
 function App() {
   return (
-    <div className="App">
-      <LifecycleA></LifecycleA>
+      <div className="App">
+        <Table></Table>
 
 
 
+      
 
-
-
-
-
-      {/* <Form></Form> */}
-      {/* <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1> */}
-      {/* <Inline></Inline> */}
-      {/* <Stylesheet primary={true}></Stylesheet> */}
-      {/* <NameList></NameList> */}
-      {/* <UserGreeting /> */}
-      {/* <ParentComponent></ParentComponent> */}
-      {/* <EventBind></EventBind> */}
-      {/* <FunctionClick></FunctionClick> */}
-      {/* <ClassClick></ClassClick> */}
-      {/* <Counter /> */}
-      {/* <Message /> */}
-      {/* <Greet name="Aram"> 
-      <p>This is children props</p>
-     </Greet>
-     <Greet name="Roba"/>
-     <Greet name="Miqo"/>
-    */}
-      {/* <Welcome name="Aram">
-      <button type="button">Lyavs TU?</button>
-     </Welcome> */}
-     
-      {/*<Welcome name="Roba" />
-      <Welcome name="Miqo" /> */}
-      {/* <Hello /> */}
-      {/* <Greet name="Aram" heroName="Barmen" /> */}
-    </div>
+        {/* <FragmentDemo></FragmentDemo> */}
+        {/* <LifecycleA></LifecycleA> */}
+        {/* <Form></Form> */}
+        {/* <h1 className='error'>Error</h1>
+        <h1 className={styles.success}>Success</h1> */}
+        {/* <Inline></Inline> */}
+        {/* <Stylesheet primary={true}></Stylesheet> */}
+        {/* <NameList></NameList> */}
+        {/* <UserGreeting /> */}
+        {/* <ParentComponent></ParentComponent> */}
+        {/* <EventBind></EventBind> */}
+        {/* <FunctionClick></FunctionClick> */}
+        {/* <ClassClick></ClassClick> */}
+        {/* <Counter /> */}
+        {/* <Message /> */}
+        {/* <Greet name="Aram"> 
+        <p>This is children props</p>
+      </Greet>
+      <Greet name="Roba"/>
+      <Greet name="Miqo"/>
+      */}
+        {/* <Welcome name="Aram">
+        <button type="button">Lyavs TU?</button>
+      </Welcome> */}
+      
+        {/*<Welcome name="Roba" />
+        <Welcome name="Miqo" /> */}
+        {/* <Hello /> */}
+        {/* <Greet name="Aram" heroName="Barmen" /> */}
+        </div>
   );
 }
 
 export default App;
+
+
