@@ -1,20 +1,25 @@
 import React from 'react'
 
 function Columns() {
-    const items = []
+    const items = [
+      {
+        'id': 0,
+        'title': 'bomj'
+      }
+    ]
     return (
     <React.Fragment>
         {
-            items.map( items => (
-                <React.Fragment key = {items.id}>
+            items.map( item => (
+                <React.Fragment key = {item.id}>
                     <h1>Title</h1>
-                    <p>{items.title}</p>
+                    <p>{item.title}</p>
                 </React.Fragment>
             ))
             
         }
-      <td>Name</td>
-      <td>Vishwas</td>
+      {/* <td>Name</td>
+      <td>Vishwas</td> */}
     </React.Fragment>
   )
 }
