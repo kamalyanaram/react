@@ -22,11 +22,15 @@ import Table from './components/Table.js';
 import PureComp from './components/PureComp.js';
 import ParentComp from './components/ParentComp.js';
 import RefsDemo from './components/RefsDemo.js';
+import FocusInput from './components/FocusInput.js';
+import FRParentInput from './components/FRParentInput.js';
 
 function App() {
   return (
       <div className="App">
-        <RefsDemo/>
+        <FRParentInput/>
+        {/* <FocusInput></FocusInput> */}
+        {/* <RefsDemo/> */}
         {/*
         <ParentComp/>
         <Table></Table>
