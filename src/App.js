@@ -1,18 +1,12 @@
-import './App.css';
-import RefsDemo from './components/RefsDemo.js';
-import FocusInput from './components/FocusInput.js';
-import FRParentInput from './components/FRParentInput.js';
-import PortalDemo from './components/PortalDemo.js';
+import React, { Component } from 'react'
+import './App.css'
 
-function App() {
-  return (
-      <div className="App">
-        <PortalDemo></PortalDemo>
-      </div>
-  )
+export class App extends Component {
+  render() {
+    return (
+      
+    )
+  }
 }
 
-export default App;
-
-
-
+export default App
