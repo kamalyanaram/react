@@ -1,12 +1,10 @@
 import './App.css';
-import ClassMouse from './components/ClassMouse';
-import HookMouse from './components/HookMouse';
+import DataFetching from './components/DataFetching';
 
 function App() {
   return (
     <div className="App">
-      {/* <ClassMouse/> */}
-      <HookMouse />
+      <DataFetching />
     </div>
   );
 }
