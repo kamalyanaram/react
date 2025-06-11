@@ -3,6 +3,7 @@ import './App.css';
 import ComponentA from './components/ComponentA';
 import ComponentB from './components/ComponentB';
 import ComponentC from './components/ComponentC';
+import DataFetchingOne from './components/DataFetchingOne';
 
 export const CountContext = React.createContext();
 
@@ -23,17 +24,18 @@ const reducer = (state, action) => {
 function App() {
   const [count, dispatch] = useReducer(reducer, initialState);
   return (
-    <CountContext.Provider
-      value={{ countState: count, countDispatch: dispatch }}
-    >
-      <div className="App">
-        Count - {count}
-        <br/><br/>
-        <ComponentA /><br/>
-        <ComponentB /><br/>
-        <ComponentC /><br/>
-      </div>
-    </CountContext.Provider>
+    <div><DataFetchingOne/></div>
+    // <CountContext.Provider
+    //   value={{ countState: count, countDispatch: dispatch }}
+    // >
+    //   <div className="App">
+    //     Count - {count}
+    //     <br/><br/>
+    //     <ComponentA /><br/>
+    //     <ComponentB /><br/>
+    //     <ComponentC /><br/>
+    //   </div>
+    // </CountContext.Provider>
   );
 }
 
